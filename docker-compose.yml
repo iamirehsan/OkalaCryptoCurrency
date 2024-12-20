@@ -1,0 +1,33 @@
+services:
+  okalacryptocurrency.api:
+    image: ${DOCKER_REGISTRY-}okalacryptocurrencyapi
+    build:
+      context: .
+      dockerfile: OkalaCryptoCurrency.Api/Dockerfile
+    container_name: OkalaCryptoCurrency-api
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    depends_on:
+      - mongodb
+    environment:
+      - MONGO_URI=mongodb://amirehsan:1234@mongodb:27017/testDb?authSource=admin
+      - DB_Name=OkalaCryptoCurrency
+      - ApiKey=ZjAyZTM5NTgtYjQ2MS00NDc4LTgyYTMtN2ZlNzU4YmZmOGIx  
+      - CoinMarketCapBaseAdress=https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest 
+      - ValidCurrencies=USD,EUR,BRL,GBP,AUD
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=amirehsan
+      - MONGO_INITDB_ROOT_PASSWORD=1234
+
+volumes:
+  mongo_data:
+

@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{89805667-B131-4584-8A18-84BF952A453C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DA74E7EB-2145-4BA8-AC0F-E0FDFA3026CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{AF845216-BEFD-48ED-B2B3-BEA121C77FB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4BB3794C-6353-4E46-A9B0-8FBBCB1861D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OkalaCryptoCurrency.Api", "OkalaCryptoCurrency.Api\OkalaCryptoCurrency.Api.csproj", "{EA935A9C-974B-43B7-B976-C476D3F06B44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OkalaCryptoCurrency.Infrastructure", "OkalaCryptoCurrency.Infrastructure\OkalaCryptoCurrency.Infrastructure.csproj", "{51D51B3F-314D-4F89-B86A-39FE5F392DB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OkalaCryptoCurrency.Domain", "OkalaCryptoCurrency.Domain\OkalaCryptoCurrency.Domain.csproj", "{12D8A847-3188-494C-8192-D2FF4E18F336}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OkalaCryptoCurrency.Application", "OkalaCryptoCurrency.Application\OkalaCryptoCurrency.Application.csproj", "{0D4E069A-445F-495C-AE95-3E6449977B69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D94787F6-772D-4BF0-8392-D250C0E90276}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{21D3AD77-F0ED-47DD-8EFC-8E8F81B6BCEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkalaCryptoCurrency.Application.Tests", "..\OkalaCryptoCurrency.Application.Tests\OkalaCryptoCurrency.Application.Tests.csproj", "{FBB539C0-1D71-4635-A221-314EFC28BE8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkalaCryptoCurrency.Infrastructure.Tests", "..\OkalaCryptoCurrency.Infrastructure.Tests\OkalaCryptoCurrency.Infrastructure.Tests.csproj", "{439C9312-7431-434E-BA93-5E81101873F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA935A9C-974B-43B7-B976-C476D3F06B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA935A9C-974B-43B7-B976-C476D3F06B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA935A9C-974B-43B7-B976-C476D3F06B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA935A9C-974B-43B7-B976-C476D3F06B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D51B3F-314D-4F89-B86A-39FE5F392DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D51B3F-314D-4F89-B86A-39FE5F392DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D51B3F-314D-4F89-B86A-39FE5F392DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D51B3F-314D-4F89-B86A-39FE5F392DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D8A847-3188-494C-8192-D2FF4E18F336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D8A847-3188-494C-8192-D2FF4E18F336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D8A847-3188-494C-8192-D2FF4E18F336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D8A847-3188-494C-8192-D2FF4E18F336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4E069A-445F-495C-AE95-3E6449977B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4E069A-445F-495C-AE95-3E6449977B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4E069A-445F-495C-AE95-3E6449977B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4E069A-445F-495C-AE95-3E6449977B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D3AD77-F0ED-47DD-8EFC-8E8F81B6BCEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D3AD77-F0ED-47DD-8EFC-8E8F81B6BCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D3AD77-F0ED-47DD-8EFC-8E8F81B6BCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D3AD77-F0ED-47DD-8EFC-8E8F81B6BCEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB539C0-1D71-4635-A221-314EFC28BE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB539C0-1D71-4635-A221-314EFC28BE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB539C0-1D71-4635-A221-314EFC28BE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB539C0-1D71-4635-A221-314EFC28BE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{439C9312-7431-434E-BA93-5E81101873F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439C9312-7431-434E-BA93-5E81101873F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439C9312-7431-434E-BA93-5E81101873F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439C9312-7431-434E-BA93-5E81101873F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA935A9C-974B-43B7-B976-C476D3F06B44} = {89805667-B131-4584-8A18-84BF952A453C}
+		{51D51B3F-314D-4F89-B86A-39FE5F392DB5} = {AF845216-BEFD-48ED-B2B3-BEA121C77FB6}
+		{12D8A847-3188-494C-8192-D2FF4E18F336} = {4BB3794C-6353-4E46-A9B0-8FBBCB1861D9}
+		{0D4E069A-445F-495C-AE95-3E6449977B69} = {DA74E7EB-2145-4BA8-AC0F-E0FDFA3026CD}
+		{FBB539C0-1D71-4635-A221-314EFC28BE8C} = {D94787F6-772D-4BF0-8392-D250C0E90276}
+		{439C9312-7431-434E-BA93-5E81101873F5} = {D94787F6-772D-4BF0-8392-D250C0E90276}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF1B15F7-99C9-4EF3-991B-56E971A0EEE4}
+	EndGlobalSection
+EndGlobal
